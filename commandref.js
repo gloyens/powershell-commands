@@ -31,7 +31,7 @@ function filter() {
   tr = table.getElementsByTagName("tr");
 
   // Loop through all table rows, and hide those who don't match the search query
-  for (i = 0; i < tr.length; i++) {
+  for (i = 1; i < tr.length; i++) {
     console.log(tr[i].innerHTML);
     if (tr[i].innerHTML.toUpperCase().includes(filter)) {
       tr[i].style.display = "";
