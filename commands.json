@@ -1,0 +1,14 @@
+{
+"Command 0": {"Unix Command":"cd", "Powershell Command":"Set-Location", "Powershell Alias":"cd", "Description":"Change directory"},
+"Command 1": {"Unix Command":"mkdir", "Powershell Command":"New-Item", "Powershell Alias":"mkdir", "Description":"Make directory"},
+"Command 2": {"Unix Command":"touch", "Powershell Command":"New-Item", "Powershell Alias":"ni", "Description":"Create file"},
+"Command 3": {"Unix Command":"cp", "Powershell Command":"Copy-Item", "Powershell Alias":"cp", "Description":"Copy file"},
+"Command 4": {"Unix Command":"mv", "Powershell Command":"Move-Item", "Powershell Alias":"mv", "Description":"Move or rename file" },
+"Command 5": {"Unix Command":"rm", "Powershell Command":"Remove-Item", "Powershell Alias":"rm", "Description":"Delete file or directory (with -r)"},
+"Command 6": {"Unix Command":"curl", "Powershell Command":"Invoke-WebRequest", "Powershell Alias":"curl", "Description":"Download file at specific url"},
+"Command 7": {"Unix Command":"grep", "Powershell Command":"Select-String", "Powershell Alias":"sls", "Description":"Search file for string"},
+"Command 8": {"Unix Command":"less", "Powershell Command":"Get-Content", "Powershell Alias":"gc", "Description":"View file contents"},
+"Command 9": {"Unix Command":"cat", "Powershell Command":"Get-Content", "Powershell Alias":"cat", "Description":"View file contents"},
+"Command 10": {"Unix Command":"clear", "Powershell Command":"CTRL + L", "Powershell Alias":"cls", "Description":"Clear screen (CTRL + L maintains scrollback)"},
+"Command 11": {"Unix Command":"xdg-open", "Powershell Command":"N/A", "Powershell Alias":"start .", "Description":"Open current directory"}
+}

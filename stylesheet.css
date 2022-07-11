@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;	
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Verdana, Helvetica, sans-serif;
+  background-color: #ebebeb;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+#container {
+  margin: auto;
+  padding: 30px 50px;
+  height: 100%;
+  max-width: 600px;
+  background-color: white;
+}
+
+#tableFilter {
+  padding: 12px 20px;
+  margin: 20px 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 5px 10px;
+}
+
+tr {
+  font-size: 12px;
+}
+
+tr:hover {
+  background-color: #ededed;
+}
